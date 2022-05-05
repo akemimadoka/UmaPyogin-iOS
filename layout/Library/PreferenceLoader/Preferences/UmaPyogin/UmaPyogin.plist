@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>UmaPyoginIcon.png</string>
+		<key>label</key>
+		<string>UmaPyogin</string>
+	</dict>
+	<key>title</key>
+	<string>UmaPyogin</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>插件相关</string>
+			<key>footerText</key>
+			<string>即使设置为禁用，也会屏蔽游戏的越狱检测，如果要完全避免插件的影响，请卸载本插件</string>
+			<key>footerAlignment</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>moe.madoka.UmaPyogin</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>启用</string>
+			<key>default</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>游戏内设置</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>defaults</key>
+			<string>moe.madoka.UmaPyogin</string>
+			<key>key</key>
+			<string>UnlockFPS</string>
+			<key>label</key>
+			<string>解锁 FPS</string>
+			<key>default</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

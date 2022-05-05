@@ -1,0 +1,6 @@
+[submodule "Trainers-Legend-G-TRANS"]
+	path = Trainers-Legend-G-TRANS
+	url = https://github.com/MinamiChiwa/Trainers-Legend-G-TRANS.git
+[submodule "UmaPyogin"]
+	path = UmaPyogin
+	url = https://github.com/akemimadoka/UmaPyogin.git
