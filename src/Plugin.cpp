@@ -6,8 +6,6 @@
 #include <dlfcn.h>
 #include <os/log.h>
 
-#include <thread>
-
 namespace
 {
 	class IOSHookInstaller : public UmaPyogin::HookInstaller
