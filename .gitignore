@@ -5,6 +5,6 @@ packages
 compile_commands.json
 
 # 以下文件来自外部仓库
-layout/var/mobile/Library/Application Support/UmaPyogin/hash_dicts
+layout/var/mobile/Library/Application Support/UmaPyogin/database
 layout/var/mobile/Library/Application Support/UmaPyogin/stories
 layout/var/mobile/Library/Application Support/UmaPyogin/static.json

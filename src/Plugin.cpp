@@ -46,10 +46,16 @@ extern "C" void InitHook(void* unityFramework, const UmaPyoginPref* pref)
 	plugin.LoadConfig(UmaPyogin::Config{
 	    .StaticLocalizationFilePath =
 	        "/private/var/mobile/Library/Application Support/UmaPyogin/static.json",
-	    .HashLocalizationDirPath =
-	        "/private/var/mobile/Library/Application Support/UmaPyogin/hash_dicts",
 	    .StoryLocalizationDirPath =
 	        "/private/var/mobile/Library/Application Support/UmaPyogin/stories",
+	    .TextDataDictPath =
+	        "/private/var/mobile/Library/Application Support/UmaPyogin/database/text_data.json",
+	    .CharacterSystemTextDataDictPath = "/private/var/mobile/Library/Application "
+	                                       "Support/UmaPyogin/database/character_system_text.json",
+	    .RaceJikkyoCommentDataDictPath = "/private/var/mobile/Library/Application "
+	                                     "Support/UmaPyogin/database/race_jikkyo_comment.json",
+	    .RaceJikkyoMessageDataDictPath = "/private/var/mobile/Library/Application "
+	                                     "Support/UmaPyogin/database/race_jikkyo_message.json",
 	    .ExtraAssetBundlePath =
 	        "/private/var/mobile/Library/Application Support/UmaPyogin/resources/umamusumelocalify",
 	    .ReplaceFontPath = "assets/bundledassets/umamusumelocalify/fonts/MSYH.TTC",
